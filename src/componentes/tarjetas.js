@@ -36,3 +36,10 @@ export const fila = (idfila, clase) => {
                 `;
       return tarjeta;
   } 
+
+
+  /*
+  
+  Este equipo es la leche
+
+  */
