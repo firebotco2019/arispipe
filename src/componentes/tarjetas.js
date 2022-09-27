@@ -16,7 +16,7 @@ export const fila = (idfila, clase) => {
     document.getElementById(idfila).appendChild(col);
   };
 
-  export const cards = ( idtarjeta, clase, estilo, cardHeader, productoImagen, imagen, cardBody, card, cardHeader2, titulo, cardBody2, texto, precio) => {
+  /*export const cards = ( idtarjeta, clase, estilo, cardHeader, productoImagen, imagen, cardBody, card, cardHeader2, titulo, cardBody2, texto, precio) => {
       const tarjeta = document.createElement("div");
       
   tarjeta.id
@@ -35,11 +35,27 @@ export const fila = (idfila, clase) => {
                     </div>
                 `;
       return tarjeta;
-  } 
+  }*/ 
 
 
-  /*
-  
-  Este equipo es la leche
-
-  */
+/* modificado por willianstars, creo que queda igual pero se acorta mas codigo en sierta forma */
+export const cards = ( idtarjeta, clase, estilo, productoImagen, imagen, titulo, texto, precio) => {
+  const tarjeta = document.createElement("div");
+    
+tarjeta.id
+ = idtarjeta;
+    tarjeta.setAttribute("class", clase);
+    tarjeta.setAttribute("style", estilo);
+    tarjeta.innerHTML = `
+                  <div class="card-header p-0 m-0">
+                    <div class="${productoImagen}" style="${imagen};"></div>
+                  </div>
+                  <div class="card-body p-0 m-0">
+                      <div class="card">
+                          <div class="card-header bg-info text-center text-uppercase fw-bold rounded-0">${titulo}</div>
+                          <div class="card-body text-justify">${texto} <br> <span>${precio}</span></div>
+                      </div>
+                  </div>
+              `;
+    return tarjeta;
+}

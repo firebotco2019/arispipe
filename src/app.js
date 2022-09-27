@@ -44,26 +44,19 @@ menu(
 
 root.appendChild(fila("main1", "row mb-3"));
 
-columna("col1", "main1", "col-md-4");
-columna("col2", "main1", "col-md-4");
-columna("col3", "main1", "col-md-4");
+columna("col1", "main1", "col-md-4 bg-info");
+columna("col2", "main1", "col-md-4 bg-success");
+columna("col3", "main1", "col-md-4 bg-dark");
 
-document
-  .getElementById("col1")
-  .appendChild(
-    cards(
-      "card1",
-      "card shadow-sm prueba1",
-      "width: 18rem",
-      "card-header",
-      "producto-imagen",
-      "background-image: url('../img/Torta_3_leches.jpg');",
-      "card-body p-0 m-0",
-      "card",
-      "card-header bg-info text-center text-uppercase fw-bold rounded-0",
-      "Torta 3 leches",
-      "card-body text-justify",
-      "Bizcocho de vainilla bañado en salsa 3 leches, decorado con placas lisas de chocolate blanco y lluvia chocolate blanco por encima. Uno de los mas vendidos en toda nuestra historia",
-      "$25000 c/u"
-    )
-  );
+/*cards(
+  "card1",
+  "card shadow-sm prueba1",
+  "width: 18rem",
+  "producto-imagen",
+  "background-image: url('../img/Torta_3_leches.jpg');",
+  "Torta 3 leches",
+  "Bizcocho de vainilla bañado en salsa 3 leches, decorado con placas lisas de chocolate blanco y lluvia chocolate blanco por encima. Uno de los mas vendidos en toda nuestra historia",
+  "$25000 c/u"
+)*/
+
+//document.getElementById("col1").appendChild("card1");
