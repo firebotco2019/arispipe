@@ -4,6 +4,7 @@ import("../node_modules/@fortawesome/fontawesome-free/css/all.css");
 
 import { parteSuperior, menu } from "./componentes/navbar";
 import { fila, columna, cards } from "./componentes/tarjetas";
+import {interior, caja, ABC} from "./componentes/carousel";
 
 const root = document.createElement("div");
 root.id = "root";
@@ -41,12 +42,29 @@ menu(
   "#",
   "nav1-destino"
 );
+root.appendChild(ABC("abc1", "container-fluid p-0 m-0 height-carousel", "captions" ));
+
+caja("abc1","caja1", "carrousel-indicators");
+
+document.getElementById("abc1").appendChild(interior("pat1", "carousel-inner",
+"carousel-item active", "ARISPIPE", "alguna wea", 
+"('./img/mision.jpeg')"));
+
+
+
+
+
 
 root.appendChild(fila("main1", "row mb-3"));
 
 columna("col1", "main1", "col-md-4 bg-info");
 columna("col2", "main1", "col-md-4 bg-success");
 columna("col3", "main1", "col-md-4 bg-dark");
+
+
+
+
+
 
 /*cards(
   "card1",
