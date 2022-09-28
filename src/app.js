@@ -52,7 +52,7 @@ document.getElementById("abc1").appendChild(interior("pat1", "carousel-inner",
 
 
 
-
+/* prueba */
 
 
 root.appendChild(fila("main1", "row mb-3"));
