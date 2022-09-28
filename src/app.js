@@ -61,6 +61,19 @@ columna("col1", "main1", "col-md-4 bg-info");
 columna("col2", "main1", "col-md-4 bg-success");
 columna("col3", "main1", "col-md-4 bg-dark");
 
+import{botones, contenedor}from './componentes/botones.js';
+
+const root = document.createElement("div");
+root.id = "root";
+
+document.body.appendChild(root);
+
+root.appendChild(contenedor("idbtn"));
+
+botones('btnid', 'idbtn', 'fab fa-twitter fa-fw');
+botones('btni', 'idbtn', 'fab fa-facebook fa-fw');
+botones('btnid0', 'idbtn', 'fab fa-instagram fa-fw');
+
 
 
 
