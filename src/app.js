@@ -47,7 +47,7 @@ root.appendChild(ABC("abc1", "container-fluid p-0 m-0 height-carousel", "caption
 caja("abc1","caja1", "carrousel-indicators");
 
 document.getElementById("abc1").appendChild(interior("pat1", "carousel-inner",
-"carousel-item active", "ARISPIPE", "alguna wea", 
+"carousel-item active", "ARISPIPE", "alguna cosa", 
 "('./img/mision.jpeg')"));
 
 
