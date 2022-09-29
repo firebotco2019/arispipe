@@ -1,3 +1,8 @@
+import { inicio } from "../paginas/inicio";
+import { contacts } from "../paginas/contacts";
+import { products } from "../paginas/products";
+import { about } from "../paginas/about";
+
 export const parteSuperior = (idnav, iddestino, clase) => {
     const nav = document.createElement('nav');
     nav.id = idnav;
@@ -16,7 +21,7 @@ export const parteSuperior = (idnav, iddestino, clase) => {
            </div>
         </div>
         `;
-        return nav;
+    return nav;
 }
 
 
@@ -25,8 +30,22 @@ export const menu = (clase, texto, enlace, destino) => {
     link.className = "nav-item";
     const ancla = document.createElement('a');
     ancla.setAttribute("class", clase);
-    ancla.setAttribute("href", enlace);
     ancla.innerHTML = texto;
+    ancla.addEventListener('click', () => {
+        loadPage(enlace, "cont1");
+    });
     link.appendChild(ancla);
     document.getElementById(destino).appendChild(link);
+}
+
+export const container = (id, clase, destino) => {
+    const contenedor = document.createElement("div");
+    contenedor.id = id;
+    contenedor.className = clase;
+    document.getElementById(destino).appendChild(contenedor);
+}
+
+export const loadPage = (pagina, destino) => {
+    console.log(`${pagina}`)
+    document.getElementById(destino).innerHTML = pagina;
 }
