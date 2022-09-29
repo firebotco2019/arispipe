@@ -1,5 +1,7 @@
 export const about = () => {
     return `
-        <h1>Acerca de</h1>
+        <div class="container mt-3">
+            <h1>Quienes Somos</h1>
+        </div>
     `;
 }

@@ -1,5 +1,7 @@
 export const contacts = () => {
     return `
-        <h1>Contáctanos</h1>
+        <div class="container mt-3">
+            <h1>Contáctanos</h1>
+        </div>
     `;
 }
