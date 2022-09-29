@@ -6,8 +6,6 @@ import { container, loadPage } from "./componentes/navbar";
 import { inicio } from "./paginas/inicio";
 import { header } from "./paginas/header";
 
-import { botones } from "./componentes/botones";
-
 const root = document.createElement("div");
 root.id = "root";
 document.body.appendChild(root);
