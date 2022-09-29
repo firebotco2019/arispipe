@@ -46,6 +46,5 @@ export const container = (id, clase, destino) => {
 }
 
 export const loadPage = (pagina, destino) => {
-    console.log(`${pagina}`)
     document.getElementById(destino).innerHTML = pagina;
 }
