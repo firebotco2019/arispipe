@@ -6,6 +6,7 @@ import { container, loadPage } from "./componentes/navbar";
 import { inicio } from "./paginas/inicio";
 import { header } from "./paginas/header";
 
+
 const root = document.createElement("div");
 root.id = "root";
 document.body.appendChild(root);
@@ -15,3 +16,4 @@ header(root);
 container("cont1", "container-fluid", "root");
 
 loadPage(inicio(), "cont1");
+    

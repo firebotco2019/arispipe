@@ -1,9 +1,9 @@
-export const ABC=(idabc, clase, otroid)=>{
-    const abc = document.createElement('container');
+export const ABC=(idabc, clase)=>{
+    const abc = document.createElement('div');
     abc.id = idabc;
-    abc.className=clase;
+    abc.className= clase;
     abc.innerHTML=`
-    <div id="${otroid}" class=\"carousel carousel-light slide carousel-fade height-carousel\" data-bs-ride=\"carousel\"></div>
+    <div data-bs-ride="false"></div>
     `;
     return abc;
 }
@@ -23,7 +23,7 @@ export const caja =(idabc, idcaja, clase)=>{
 export const interior =(idpat, clase, activador, titulo, texto, imagen)=>{
     const paneles = document.createElement('div')
     paneles.id = idpat;
-    paneles.setAttribute = clase;/*no me quiere tomar en cuenta el "carousel-inner" help me atte: willianstars*/
+    paneles.className = clase;/*no me quiere tomar en cuenta el "carousel-inner" help me atte: willianstars*/
     paneles.innerHTML = `
     <div class="${activador}">
         <div class="carousel-caption d-none d-md-block h-100">
