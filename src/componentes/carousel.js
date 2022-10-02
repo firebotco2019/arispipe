@@ -1,7 +1,7 @@
 export const ABC=(idabc, clase)=>{
     const abc = document.createElement('div');
     abc.id = idabc;
-    abc.className= clase;
+    abc.setAttribute=("class", clase);
     abc.innerHTML=`
     <div data-bs-ride="false"></div>
     `;
@@ -11,7 +11,7 @@ export const ABC=(idabc, clase)=>{
 export const caja =(idabc, idcaja, clase)=>{
     const carrousel = document.createElement('div');
     carrousel.id = idcaja;
-    carrousel.className = clase;
+    carrousel.setAttribute =("class", clase);
     carrousel.innerHTML = `
             <button type="button" data-bs-target="#captions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#captions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -23,7 +23,7 @@ export const caja =(idabc, idcaja, clase)=>{
 export const interior =(idpat, clase, activador, titulo, texto, imagen)=>{
     const paneles = document.createElement('div')
     paneles.id = idpat;
-    paneles.className = clase;/*no me quiere tomar en cuenta el "carousel-inner" help me atte: willianstars*/
+    paneles.setAttribute = ("class", clase);
     paneles.innerHTML = `
     <div class="${activador}">
         <div class="carousel-caption d-none d-md-block h-100">
@@ -33,7 +33,7 @@ export const interior =(idpat, clase, activador, titulo, texto, imagen)=>{
         </div>
         <div
             style="
-            backgroun-image: url${imagen};
+            backgroun-image: ${imagen};
             background-position: center;
             background-size: cover;
             "
