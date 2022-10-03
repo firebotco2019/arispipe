@@ -1,7 +1,7 @@
 import { ABC, caja, interior } from "../componentes/carousel";
 
-export const inicio = (root) => {
-  root.appenChild(
+export const inicio = () => {
+  return ` root.appenChild(
     ABC("abc1", "carousel carousel-light slide carousel-fade height-carousel")
   );
   caja("abc1", "caja1", "carousel-indicators");
@@ -12,7 +12,7 @@ export const inicio = (root) => {
     "Hola Mundo",
     "No Se We",
     "..."
-  ));
+  ));`
 };
 console.log(inicio());
 /*
