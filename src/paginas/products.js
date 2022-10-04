@@ -8,7 +8,7 @@ export const products = () => {
         <div class="col-md-4">
           <div class="card shadow-sm" style="width: 18rem">
             <div class="card-header p-0 m-0">
-              <div class="producto-imagen" style="background-image: url('./img/Torta 3 leches.jpg') ;"></div>
+              <div class="producto-imagen" style="background-image: url('./img/Torta_3_leches.jpg') ;"></div>
             </div>
             <div class="card-body p-0 m-0">
               <div class="card">
@@ -23,7 +23,7 @@ export const products = () => {
         <div class="col-md-4">
           <div class="card shadow-sm" style="width: 18rem">
             <div class="card-header m-0 p-0">
-              <div class="producto-imagen" style="background-image: url('./img/Torta de Helado.jpeg');"></div>
+              <div class="producto-imagen" style="background-image: url('./img/Torta_de_Helado.jpeg');"></div>
             </div>
             <div class="card-body p-0 m-0">
               <div class="card">
@@ -36,7 +36,7 @@ export const products = () => {
         <div class="col-md-4">
           <div class="card shadow-sm" style="width: 18rem">
             <div class="card-header m-0 p-0">
-              <div class="producto-imagen" style="background-image: url('./img/Torta Milky Way.jpeg');"></div>
+              <div class="producto-imagen" style="background-image: url('./img/Torta_Milky_Way.jpeg');"></div>
             </div>
             <div class="card-body p-0 m-0">
               <div class="card">
@@ -53,7 +53,7 @@ export const products = () => {
         <div class="col-md-4">
           <div class="card shadow-sm" style="width: 18rem">
             <div class="card-header m-0 p-0">
-              <div class="producto-imagen" style="background-image: url('./img/Torta De Chocolate.jpeg') ;"></div>
+              <div class="producto-imagen" style="background-image: url('./img/Torta_De_Chocolate.jpeg') ;"></div>
             </div>
             <div class="card-body p-0 m-0">
               <div class="card border-0 rounded-0">
@@ -69,7 +69,7 @@ export const products = () => {
         <div class="col-md-4">
           <div class="card shadow-sm" style="width: 18rem">
             <div class="card-header p-0 m-0">
-              <div class="producto-imagen" style="background-image: url('./img/Postre Frutos Rojos.jpeg') ;"></div>
+              <div class="producto-imagen" style="background-image: url('./img/Postre_Frutos_Rojos.jpeg') ;"></div>
             </div>
             <div class="card-body p-0 m-0">
               <div class="card border-0 rounded-0">
