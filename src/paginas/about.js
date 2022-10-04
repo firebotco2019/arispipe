@@ -1,5 +1,5 @@
 export const about = () => {
-    return `
+  return `
         <div class="container mt-3">
         <div class="row">
         <div class="col-md-6">
@@ -50,4 +50,4 @@ export const about = () => {
     </div>
         </div>
     `;
-}
+};
