@@ -1,6 +1,5 @@
-export const ABC = (idabc, clase) => {
+export const ABC = (iddest) => {
     return `
-    <div class="container-fluid p-0 m-0 height-carousel">
     <div id="carouselExampleControls" class="carousel carousel-light slide carousel-fade height-carousel" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button
@@ -24,60 +23,7 @@ export const ABC = (idabc, clase) => {
           aria-label="Slide 3"
         ></button>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="carousel-caption d-none d-md-block h-100">
-            <br /><br />
-            <h1 class="fw-bold text-shadow-sm arispipe">ARISPIPE</h1>
-            <p class="h2 bg-dark-trans rounded p-3">
-              No necesitas hacer dieta, según tu Whatsapp, estás en línea.
-            </p>
-          </div>
-          <div
-            style="
-              background-image: url('https://www.eltiempo.com/uploads/2020/12/28/5fea66fc148ce.jpeg');
-              background-position: center;
-              background-size: cover;
-            "
-            class="w-100 height-carousel"
-          ></div>
-        </div>
-        <div class="carousel-item">
-          <div class="carousel-caption d-none d-md-block h-100">
-            <br /><br />
-            <h1 class="fw-bold text-shadow-sm arispipe">
-              NUESTROS PRODUCTOS
-            </h1>
-            <p class="h2 bg-dark-trans rounded p-3">
-              Deleitate con Nuestros Productos
-            </p>
-          </div>
-          <div
-            style="
-              background-image: url('https://elmundoenrecetas.s3.amazonaws.com/uploads/recipe/main_image/566/fresas_con_crema.webp');
-              background-position: center;
-              background-size: cover;
-            "
-            class="w-100 height-carousel"
-          ></div>
-        </div>
-        <div class="carousel-item">
-          <div class="carousel-caption d-none d-md-block h-100">
-            <br /><br />
-            <h1 class="fw-bold text-shadow-sm arispipe">RESERVA TU PEDIDO</h1>
-            <p class="h2 bg-dark-trans rounded p-3">
-              Llámanos a Nuestra Línea de Domicilios 3003334556
-            </p>
-          </div>
-          <div
-            style="
-              background-image: url('https://www.petitchef.es/imgupl/recipe/milhojas-crujiente-de-crema-pastelera--454800p705566.jpg');
-              background-position: center;
-              background-size: cover;
-            "
-            class="w-100 height-carousel"
-          ></div>
-        </div>
+      <div class="carousel-inner" id="${iddest}">
       </div>
       <button
         class="carousel-control-prev"
@@ -98,6 +44,11 @@ export const ABC = (idabc, clase) => {
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-  </div>
     `;
+}
+
+export const carditem = () => {
+    return `
+        
+    `
 }
