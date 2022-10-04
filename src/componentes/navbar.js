@@ -1,7 +1,3 @@
-import { inicio } from "../paginas/inicio";
-import { contacts } from "../paginas/contacts";
-import { products } from "../paginas/products";
-import { about } from "../paginas/about";
 
 export const parteSuperior = (idnav, iddestino, clase) => {
     const nav = document.createElement('nav');

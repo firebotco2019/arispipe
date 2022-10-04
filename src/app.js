@@ -16,6 +16,6 @@ header(root);
 
 container("cont1", "container-fluid", "root");
 
-loadPage(inicio(container), "cont1");
+loadPage(inicio(), "cont1");
 
-    
+
