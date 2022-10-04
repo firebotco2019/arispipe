@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: 'Nilson';
-    src: url('./Fonts/texto.ttf.TTF');
+    src: url('../Fonts/texto.ttf.TTF');
 }
 
 * {
