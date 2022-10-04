@@ -95,7 +95,6 @@ export const products = () => {
                   huevo gelatina y un toque de azucar <br> <span> $2500 c/u</span></div>
               </div>
               
-              
             </div>
           </div>
         </div>
