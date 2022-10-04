@@ -12,12 +12,12 @@ export const about = () => {
             </p>
         </div>
         <div class="col-md-6">
-            <div class="fondo-img" style="background-image: url(/img/politicas.jpg);"></div>
+            <div class="fondo-img" style="background-image: url(/img/politicas.jpeg);"></div>
         </div>
     </div>
     <div class="row mt-5">
         <div class="col-md-6">
-            <div class="fondo-img" style="background-image: url(/img/vision.jpg);"></div>
+            <div class="fondo-img" style="background-image: url(/img/vision.jpeg);"></div>
         </div>
         <div class="col-md-6 text-right">
             <h1 class="fw-bold text">Visión</h1>
@@ -44,7 +44,7 @@ export const about = () => {
 
         </div>
         <div class="col-md-6">
-            <div class="fondo-img" style="background-image: url(/img/mision.jpg);"></div>
+            <div class="fondo-img" style="background-image: url(/img/mision.jpeg);"></div>
         </div>
         
     </div>
