@@ -57,7 +57,7 @@ export const contacts = () => {
                       <textarea name="comentarios" id="comentarios" cols="30" rows="10" class="form-control"></textarea>
                     </div>
                   </div>
-                  <button class="btn btn-info"><i class="fas fa-paper-plane fa-fw"></i>Enviar</button>
+                  <button class="btn btn-info mt-3"><i class="fas fa-paper-plane fa-fw"></i>Enviar</button>
                 </form>
               </div>
             </div>
@@ -83,3 +83,4 @@ export const contacts = () => {
         </div>
     `;
 }
+
