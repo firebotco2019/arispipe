@@ -1,5 +1,10 @@
 export const ABC = (iddest) => {
     return `
+    <div class="fixed-left redes-sociales">
+        <button class="btn btn-dark mb-1 shadow-sm"><i class="fab fa-twitter fa-fw"></i></button>
+        <button class="btn btn-dark mb-1 shadow-sm"><i class="fab fa-facebook fa-fw"></i></button>
+        <button class="btn btn-dark mb-1 shadow-sm"><i class="fab fa-instagram fa-fw"></i></button>
+    </div>
     <div id="carouselExampleControls" class="carousel carousel-light slide carousel-fade height-carousel" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button
