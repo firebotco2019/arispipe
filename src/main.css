@@ -95,6 +95,9 @@ a {
 .text-justify{
     text-align: justify;
 }
+.carousel-caption {
+    position: relative;
+}
 
 .producto-imagen{
     width: 100%;

@@ -25,7 +25,7 @@ export const ABC = (iddest) => {
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="carousel-caption d-none d-md-block h-100">
+            <div class="carousel-caption d-none d-md-block w-100">
               <br /><br />
               <h1 class="fw-bold text-shadow-sm arispipe">ARISPIPE</h1>
               <p class="h2 bg-dark-trans rounded p-3">
@@ -42,7 +42,7 @@ export const ABC = (iddest) => {
             ></div>
           </div>
           <div class="carousel-item">
-            <div class="carousel-caption d-none d-md-block h-100">
+            <div class="carousel-caption d-none d-md-block w-100">
               <br /><br />
               <h1 class="fw-bold text-shadow-sm arispipe">
                 NUESTROS PRODUCTOS
@@ -61,7 +61,7 @@ export const ABC = (iddest) => {
             ></div>
           </div>
           <div class="carousel-item">
-            <div class="carousel-caption d-none d-md-block h-100">
+            <div class="carousel-caption d-none d-md-block w-100">
               <br /><br />
               <h1 class="fw-bold text-shadow-sm arispipe">RESERVA TU PEDIDO</h1>
               <p class="h2 bg-dark-trans rounded p-3">
