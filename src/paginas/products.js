@@ -1,5 +1,10 @@
 export const products = () => {
     return `
+    <div class="fixed-left redes-sociales">
+        <button class="btn btn-dark mb-1 shadow-sm"><i class="fab fa-twitter fa-fw"></i></button>
+        <button class="btn btn-dark mb-1 shadow-sm"><i class="fab fa-facebook fa-fw"></i></button>
+        <button class="btn btn-dark mb-1 shadow-sm"><i class="fab fa-instagram fa-fw"></i></button>
+    </div>
     <div class="container mt-3">
       <marquee class="anuncio mt-2 mb-2" role="alert" width="90%"
         ><h1>TORTAS & POSTRES</h1></marquee
