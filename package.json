@@ -15,6 +15,6 @@
         "build": "webpack --watch"
     },
     "dependencies": {
-        "leaflet": "^1.9.1"
+        "leaflet": "^1.9.2"
     }
 }
