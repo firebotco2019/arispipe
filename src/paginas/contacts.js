@@ -1,18 +1,11 @@
 export const contacts = () => {
     return `
-        <div class="container mt-3">
         <div class="fixed-left redes-sociales">
-        <button class="btn btn-dark mb-1 shadow-sm">
-          <i class="fab fa-twitter fa-fw"></i>
-        </button>
-        <button class="btn btn-dark mb-1 shadow-sm">
-          <i class="fab fa-facebook fa-fw"></i>
-        </button>
-        <button class="btn btn-dark mb-1 shadow-sm">
-          <i class="fab fa-instagram fa-fw"></i>
-        </button>
-      </div>
-  
+        <button class="btn btn-dark mb-1 shadow-sm"><i class="fab fa-twitter fa-fw"></i></button>
+        <button class="btn btn-dark mb-1 shadow-sm"><i class="fab fa-facebook fa-fw"></i></button>
+        <button class="btn btn-dark mb-1 shadow-sm"><i class="fab fa-instagram fa-fw"></i></button>
+        
+       </div>
   
       <div class="container mt-3">
         <div class="row">
