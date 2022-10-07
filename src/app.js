@@ -21,4 +21,3 @@ container("cont1", "container-fluid p-0 m-0", "root");
 
 loadPage(inicio(), "cont1");
 
-

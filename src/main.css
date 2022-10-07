@@ -114,3 +114,14 @@ a {
     text-decoration: 2px underline double;
 }
 
+.margen{
+    margin-left: 0px;
+    margin-right: 100%;
+}
+.carousel-caption{
+    clear: both;
+    /* margin-left: -263px;
+    background-color: black;*/
+    width: 1350px !important;
+    align-content: center center;
+}

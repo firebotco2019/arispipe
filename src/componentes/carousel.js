@@ -28,7 +28,7 @@ export const ABC = (iddest) => {
             aria-label="Slide 3"
           ></button>
         </div>
-        <div class="carousel-inner">
+        <div class="carousel-inner margen">
           <div class="carousel-item active">
             <div class="carousel-caption d-none d-md-block w-100">
               <br /><br />
